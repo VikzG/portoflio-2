@@ -23,7 +23,7 @@ const Footer = () => {
         scrollTrigger: {
           trigger: "#contact",
           start: "top 80%",
-          end: "bottom 80%",
+          end: "bottom 90%",
           scrub: true,
         },
       }

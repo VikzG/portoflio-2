@@ -23,7 +23,7 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2 grid-scrolltrigger",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "",
+      img: "/world.svg",
       spareImg: "",
     },
     {
