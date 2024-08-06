@@ -90,7 +90,7 @@ export const navItems = [
       id: 3,
       title: "Oh my food - Gourmet restaurant",
       des: "My role was to structure the website using HTML, create visually appealing styles with SASS.",
-      img: "/omf.JPG",
+      img: "/omf.jpg",
       iconLists: ["/sass.svg"],
       link: 'https://ohmyfood-restaurant.netlify.app',
     },
