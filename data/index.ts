@@ -110,14 +110,14 @@ export const navItems = [
       title: "Web integration",
       desc: "Throughout my formation and personal projects, I have acquired strong front-end development skills using React.js, TypeScript and Next.js",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/web-development-icon.svg",
     },
     {
       id: 2,
       title: "Graphic design",
       desc: "As a bachelor's degree holder in visual communication, I have gained foundations in the fundamental principles of graphic design. I have learned to utilize tools such as InDesign, Photoshop, and Illustrator to create visually impactful graphics.",
       className: "md:col-span-2",
-      thumbnail: "/exp2.svg",
+      thumbnail: "/graphic-design-icon.svg",
     },
   ];
   
