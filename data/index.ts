@@ -29,7 +29,7 @@ export const navItems = [
     {
       id: 3,
       title: "My tools",
-      description: "What do I use to work?",
+      description: "What do I use to work ?",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2 grid-scrolltrigger",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Enjoying development and graphic design",
+      title: "I try to learn and improve myself day by day",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1 grid-scrolltrigger",
       imgClassName: "",
@@ -50,7 +50,7 @@ export const navItems = [
     {
       id: 5,
       title: "I'm building a french digital agency's website",
-      description: "What am I workin' on actually ?",
+      description: "What am I working on ?",
       className: "md:col-span-3 md:row-span-2 grid-scrolltrigger",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
