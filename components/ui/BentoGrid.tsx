@@ -52,7 +52,7 @@ export const BentoGridItem = ({
 
   const handleCopy = async () => {
     try {
-      const text = "jeremy.bouzemame@gmail.com";
+      const text = "jeremfront@gmail.com";
       await navigator.clipboard.writeText(text);
       setCopied(true);
     } catch (err) {
@@ -134,7 +134,7 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-extralight text-sm text-white-100 md:text-[#A084CA] md:text-xs lg:text-base z-10">
+          <div className="font-sans font-normal text-sm md:font-extralight text-[#A084CA] md:text-xs lg:text-base z-10">
             {description}
           </div>
           <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">

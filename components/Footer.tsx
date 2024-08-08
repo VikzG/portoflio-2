@@ -41,7 +41,7 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:jeremy.bouzemame@gmail.com">
+        <a href="mailto:jeremfront@gmail.com">
           <ShimmerButton
             title="Contact me"
             icon={<FaLocationArrow />}
