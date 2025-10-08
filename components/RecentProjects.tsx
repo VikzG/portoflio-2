@@ -55,14 +55,14 @@ const RecentProjects = () => {
         <span className="text-purple">my projects</span>
       </h1>
       <div className="flex flex-wrap items-center
-       justify-center p-4 gap-x-24 gap-y-8 mt-10">
+       justify-center p-4 gap-x-24 sm:gap-y-40 gap-y-2 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem]
                 flex items-center justify-center sm:w-[570px] w-[80vw] projects-animation"
           >
-            <PinContainer title={link} href={link}>
+            <PinContainer title={link} href={link} target="_blank">
               <div
                 className="relative flex item-center justify-center
                 sm:w-[570px] w-[80vw] overflow-hidden h-[30vh]
@@ -83,7 +83,7 @@ const RecentProjects = () => {
                 {title}
               </h1>
               <p
-                className="lg:text-xl lg:font-normal
+                className="lg:text-lg lg:font-normal
                 font-light text-sm line-clamp-2"
               >
                 {des}

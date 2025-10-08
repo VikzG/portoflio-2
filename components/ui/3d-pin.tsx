@@ -8,12 +8,14 @@ export const PinContainer = ({
   children,
   title,
   href,
+  target,
   className,
   containerClassName,
 }:{
   children: React.ReactNode;
   title?: string;
   href?: string;
+  target?: string;
   className?: string;
   containerClassName?: string;
 }) => {
@@ -55,7 +57,7 @@ export const PinContainer = ({
             group-hover/pin:border-white/[0.2] 
             transition duration-700 overflow-hidden"
         >
-          <Link href={href || "/"} className={cn(" relative z-50 ", className)}>{children}</Link>
+          <Link href={href || "/"} target="_blank" className={cn(" relative z-50 ", className)}>{children}</Link>
         </div>
       </div>
       <PinPerspective title={title} href={href} />
