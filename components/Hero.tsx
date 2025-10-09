@@ -104,17 +104,17 @@ const Hero = () => {
           <img src={mylogo.src} className="my-logo opacity-0" alt="my logo"/>
           </div>
           <h2 className="hero-subtitle opacity-0 uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Welcome to my world
+            Portfolio
           </h2>
           <TextGenerateEffect
           className="text-center text-[40px]
           md:text-5xl lg:text-6xl"
-          words="Hey ! I'm Jeremy, a Front-end Developer"
+          words="Hi ! I'm Jeremy, a Full-Stack Developer"
            />
            <p className="hero-sentence opacity-0 text-center md:tracking-wider mb-4
             text-sm md:text-lg lg:text-2xl">
             
-            I hope you will enjoy the journey
+            I hope you'll enjoy the visit
            </p>
            <a href='#projects'>
             <ShimmerButton
