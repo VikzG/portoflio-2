@@ -89,11 +89,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AleksicDesign - Designer Portfolio",
-    des: "This one consists of creating the portfolio of a graphic designer using React and GSAP.",
-    img: "/pfa.PNG",
-    iconLists: ["/re.svg", "/gsap.svg"],
-    link: "https://aleksdesign-portfolio.netlify.app",
+    title: "Les Artisans Sonores - Website",
+    des: "This one consists of creating a showcase website for Les Artisans Sonores, a music identity creation studio.",
+    img: "/las_hero.PNG",
+    iconLists: ["/next.svg", "/framer.png", "/tail.svg"],
+    link: "https://las-studio.netlify.app/",
   },
 ];
 
