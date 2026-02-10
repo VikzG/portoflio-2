@@ -93,7 +93,7 @@ export const projects = [
     des: "This one consists of creating a showcase website for Les Artisans Sonores, a music identity creation studio.",
     img: "/las_hero.PNG",
     iconLists: ["/next.svg", "/framer.png", "/tail.svg"],
-    link: "https://las-studio.netlify.app/",
+    link: "https://lesartisanssonores.com/",
   },
 ];
 
