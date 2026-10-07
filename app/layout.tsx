@@ -10,12 +10,8 @@ const description =
   "Portfolio de Jeremy B., développeur full-stack : sites et applications web sur mesure avec React, Next.js, TypeScript et Node.js.";
 
 export const metadata: Metadata = {
-  // Vercel expose le domaine de production au moment du build
-  metadataBase: new URL(
-    process.env.VERCEL_PROJECT_PRODUCTION_URL
-      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-      : "http://localhost:3000"
-  ),
+  // Netlify expose l'URL du site via la variable URL au moment du build
+  metadataBase: new URL(process.env.URL ?? "http://localhost:3000"),
   title,
   description,
   openGraph: {
