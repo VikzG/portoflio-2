@@ -1,14 +1,14 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Experiences", link: "#experiences" },
+  { name: "À propos", link: "#about" },
+  { name: "Projets", link: "#projects" },
+  { name: "Expériences", link: "#experiences" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "Constantly looking to bring new ideas to life",
+    title: "Toujours en quête de nouvelles idées à concrétiser",
     description: "",
     className:
       "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] grid-scrolltrigger",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I am open to projects all over the world",
+    title: "Ouvert aux projets partout dans le monde",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2 grid-scrolltrigger",
     imgClassName: "",
@@ -29,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tools",
-    description: "What do I use to work ?",
+    title: "Mes outils",
+    description: "Avec quoi je travaille ?",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2 grid-scrolltrigger",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -39,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "I try to learn and improve myself day by day",
+    title: "J’apprends et je progresse chaque jour",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1 grid-scrolltrigger",
     imgClassName: "",
@@ -50,8 +50,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "I’m currently working on a mobile application focused on fashion and clothing.",
-    description: "What am I working on ?",
+    title: "Je développe actuellement une application mobile dédiée à la mode et aux vêtements.",
+    description: "Sur quoi je travaille ?",
     className: "md:col-span-3 md:row-span-2 grid-scrolltrigger",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -60,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Envie de lancer un projet ensemble ?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1 grid-scrolltrigger",
     imgClassName: "",
@@ -73,25 +73,25 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Fondation Diaka Camara - Website",
-    des: "The Fondation Diaka Camara website is a modern and responsive platform designed to reflect the foundation’s values.",
+    title: "Fondation Diaka Camara - Site web",
+    des: "Le site de la Fondation Diaka Camara est une plateforme moderne et responsive, conçue pour refléter les valeurs de la fondation.",
     img: "/fondation.png",
     iconLists: ["/re.svg", "/tail.svg", "/framer.png"],
     link: "https://fondationdiakacamara.org",
   },
   {
     id: 2,
-    title: "Retail Revive Services - Website",
-    des: "Retail Revive Services, is a pan-African consultancy that supports local and international companies in their establishment in Africa.",
+    title: "Retail Revive Services - Site web",
+    des: "Retail Revive Services est un cabinet de conseil panafricain qui accompagne les entreprises locales et internationales dans leur implantation en Afrique.",
     img: "/banner_rss.png",
     iconLists: ["/next.svg", "/tail.svg", "/framer.png"],
     link: "https://retailreviveservices.com/fr",
   },
   {
     id: 3,
-    title: "Les Artisans Sonores - Website",
-    des: "This one consists of creating a showcase website for Les Artisans Sonores, a music identity creation studio.",
-    img: "/las_hero.PNG",
+    title: "Les Artisans Sonores - Site web",
+    des: "Création du site vitrine des Artisans Sonores, un studio de création d’identités musicales.",
+    img: "/las_hero.png",
     iconLists: ["/next.svg", "/framer.png", "/tail.svg"],
     link: "https://lesartisanssonores.com/",
   },
@@ -100,15 +100,15 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
-    title: "Web development",
-    desc: "Throughout my formation and personal projects, I have acquired full-stack development skills using React.js, TypeScript and Node.js",
+    title: "Développement web",
+    desc: "Au fil de ma formation et de mes projets, j’ai acquis des compétences de développeur full-stack avec React.js, TypeScript et Node.js.",
     className: "md:col-span-2",
     thumbnail: "/web-development-icon.svg",
   },
   {
     id: 2,
-    title: "Graphic design",
-    desc: "As a bachelor's degree holder in visual communication, I have gained foundations in the fundamental principles of graphic design. I have learned to utilize tools such as InDesign, Photoshop, and Illustrator to create visually impactful graphics.",
+    title: "Design graphique",
+    desc: "Titulaire d’une licence en communication visuelle, je maîtrise les fondamentaux du design graphique et les outils InDesign, Photoshop et Illustrator pour créer des visuels percutants.",
     className: "md:col-span-2",
     thumbnail: "/graphic-design-icon.svg",
   },
@@ -117,14 +117,8 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
-    alt: "github",
-    url: "https://github.com/VikzG?tab=repositories",
-  },
-  {
-    id: 2,
     img: "/link.svg",
-    alt: "linkedin",
+    alt: "LinkedIn",
     url: "https://www.linkedin.com/in/jeremyb-frontend/",
   },
 ];

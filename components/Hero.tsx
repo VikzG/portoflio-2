@@ -14,25 +14,9 @@ const Hero = () => {
       ".my-logo",
       { opacity: 0, scale: 0.5 },
       {
-        opacity: 1,
+        opacity: 0.08,
         scale: 1,
         delay: 1.5,
-        ease: "power1.out",
-        scrollTrigger: {
-          trigger: ".hero-section",
-          start: "top 60%",
-          end: "bottom 70%",
-          scrub: false,
-        },
-      }
-    );
-
-    gsap.fromTo(
-      ".hero-subtitle",
-      { opacity: 0 },
-      {
-        opacity: 1,
-        delay: 1.3,
         ease: "power1.out",
         scrollTrigger: {
           trigger: ".hero-section",
@@ -97,26 +81,32 @@ const Hero = () => {
       </div>
       <div className="flex justify-center my-20 z-10 relative">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <div className="w-16 h-24">
-            <img src={mylogo.src} className="my-logo opacity-0" alt="my logo" />
-          </div>
-          <h2 className="hero-subtitle opacity-0 uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Portfolio
-          </h2>
-          <TextGenerateEffect
-            className="text-center text-[40px]
+          <div className="relative w-full flex justify-center">
+            <div
+              className="absolute inset-0 flex items-center justify-center pointer-events-none select-none"
+              aria-hidden="true"
+            >
+              <img
+                src={mylogo.src}
+                className="my-logo opacity-0 w-64 md:w-96 lg:w-[28rem] max-w-none"
+                alt=""
+              />
+            </div>
+            <TextGenerateEffect
+              className="relative text-center text-[40px]
           md:text-5xl lg:text-6xl"
-            words={"Hi ! I'm Jeremy, a Full-Stack Developer"}
-          />
+              words={"Salut, moi c'est Jeremy, développeur full-stack"}
+            />
+          </div>
           <p
             className="hero-sentence opacity-0 text-center md:tracking-wider mb-4
             text-sm md:text-lg lg:text-2xl"
           >
-            {"I hope you'll enjoy the visit"}
+            {"Je conçois des sites et applications web rapides, soignés et sur mesure, de l'idée à la mise en ligne."}
           </p>
           <a href="#projects">
             <ShimmerButton
-              title="See my works"
+              title="Voir mes projets"
               otherClasses="hero-button-animation opacity-0"
               icon={<FaLocationArrow />}
               position="right"

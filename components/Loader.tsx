@@ -16,8 +16,8 @@ const Loader: React.FC = () => {
           path.style.strokeDashoffset = `${length}`;
           gsap.to(path, {
             strokeDashoffset: 0,
-            duration: 1.5,
-            delay: index * 0.5,
+            duration: 0.8,
+            delay: index * 0.2,
             ease: "power1.inOut",
             opacity:1,
           });

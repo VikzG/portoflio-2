@@ -9,14 +9,14 @@ const Footer = () => {
     <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Thanks<span className="text-purple"> for stopping by</span> !
+          Merci<span className="text-purple"> pour votre visite</span>&nbsp;!
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Let’s connect and build something amazing together.
+          Échangeons et construisons quelque chose ensemble.
         </p>
         <a href="mailto:jeremfront@gmail.com">
           <ShimmerButton
-            title="Contact me"
+            title="Me contacter"
             icon={<FaLocationArrow />}
             position="right"
           />
@@ -27,13 +27,16 @@ const Footer = () => {
   justify-between md:gap-0 gap-6 items-center"
       >
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2025 Jeremy B.
+          Copyright © 2026 Jeremy B.
         </p>
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((profile) => (
             <a
               href={profile.url}
               key={profile.id}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={profile.alt}
               className="w-10 h-10 
                 cursor-pointer flex justify-center 
                 items-center backdrop-filter 

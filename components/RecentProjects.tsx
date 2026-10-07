@@ -51,8 +51,8 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading projects-title-animation">
-        A short presentation of {""}
-        <span className="text-purple">my projects</span>
+        Un aperçu de {""}
+        <span className="text-purple">mes projets</span>
       </h1>
       <div className="flex flex-wrap items-center
        justify-center p-4 gap-x-24 sm:gap-y-40 gap-y-2 mt-10">
@@ -112,7 +112,7 @@ const RecentProjects = () => {
                     className="flex lg:text-xl md:text-xs 
                     text-sm text-purple"
                   >
-                    Check Live Site
+                    Voir le site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>

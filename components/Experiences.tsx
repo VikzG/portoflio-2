@@ -48,8 +48,8 @@ const Experiences = () => {
   return (
     <div className="pt-10 pb-10" id="experiences">
       <h1 className="heading experiences-title-animation">
-        A little summary of
-        <span className="text-purple"> my experiences</span>
+        Un résumé de
+        <span className="text-purple"> mes expériences</span>
       </h1>
 
       <div

@@ -172,7 +172,7 @@ export const BentoGridItem = ({
           {id === 6 && (
             <div className="mt-5 relative">
               <ShimmerButton
-                title={copied ? "Copied !" : "Get my email"}
+                title={copied ? "Copié !" : "Copier mon e-mail"}
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
