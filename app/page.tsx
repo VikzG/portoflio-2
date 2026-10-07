@@ -9,6 +9,7 @@ import { navItems } from "@/data";
 import Experiences from "@/components/Experiences";
 import Footer from "@/components/Footer";
 import Loader from "@/components/Loader";
+import SmoothScroll from "@/components/SmoothScroll";
 
 export default function Home() {
 
@@ -29,6 +30,7 @@ export default function Home() {
         <Loader />
       ) : (
   <div className="max-w-7xl w-full">
+    <SmoothScroll />
     <FloatingNav navItems={navItems}
     />
     <Hero />

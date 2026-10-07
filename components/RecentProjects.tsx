@@ -74,7 +74,7 @@ const RecentProjects = () => {
                 >
                   <img src="/bg.png" alt="bg-img" />
                 </div>
-                <img src={img} alt={title} className="z-10 absolute bottom-0 rounded-xl w-5/6 h-3/4 rotate-3" />
+                <img src={img} alt={title} className="z-10 absolute bottom-0 rounded-xl w-5/6 h-3/4 rotate-3 object-cover object-left" />
               </div>
               <h1
                 className="font-bold lg:text-2xl md:text-xl

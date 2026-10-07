@@ -73,22 +73,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Fondation Diaka Camara - Site web",
-    des: "Le site de la Fondation Diaka Camara est une plateforme moderne et responsive, conçue pour refléter les valeurs de la fondation.",
-    img: "/fondation.png",
-    iconLists: ["/re.svg", "/tail.svg", "/framer.png"],
-    link: "https://fondationdiakacamara.org",
+    title: "Agence Rotharc - Site web",
+    des: "Site de mon agence de création de sites web et d’applications sur mesure : direction artistique noir et or, animations soignées et offres présentées en toute transparence.",
+    img: "/rotharc.webp",
+    iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/framer.png"],
+    link: "https://rotharc-agency.com",
   },
   {
     id: 2,
-    title: "Retail Revive Services - Site web",
-    des: "Retail Revive Services est un cabinet de conseil panafricain qui accompagne les entreprises locales et internationales dans leur implantation en Afrique.",
-    img: "/banner_rss.png",
-    iconLists: ["/next.svg", "/tail.svg", "/framer.png"],
-    link: "https://retailreviveservices.com/fr",
-  },
-  {
-    id: 3,
     title: "Les Artisans Sonores - Site web",
     des: "Création du site vitrine des Artisans Sonores, un studio de création d’identités musicales.",
     img: "/las_hero.png",
