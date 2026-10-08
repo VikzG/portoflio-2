@@ -46,11 +46,11 @@ const Experiences = () => {
   }, []);
 
   return (
-    <div className="pt-10 pb-10" id="experiences">
-      <h1 className="heading experiences-title-animation">
+    <div className="py-20" id="experiences">
+      <h2 className="heading experiences-title-animation">
         Un résumé de
         <span className="text-purple"> mes expériences</span>
-      </h1>
+      </h2>
 
       <div
         className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 
@@ -58,6 +58,7 @@ const Experiences = () => {
       >
         {workExperience.map((card) => (
           <Button
+            as="div"
             key={card.id}
              duration={Math.floor(Math.random() * 5000)
                 +5000
@@ -72,16 +73,16 @@ const Experiences = () => {
             >
               <img
                 src={card.thumbnail}
-                alt={card.thumbnail}
+                alt=""
                 className="lg:w-32 md:w-20 w-16"
               />
               <div className="lg:ms-5">
-                <h1
+                <h3
                   className="text-start text-xl 
                         md:text-2xl font-bold"
                 >
                   {card.title}
-                </h1>
+                </h3>
                 <p
                   className="text-start text-white-100 mt-3
                         font-semibold"

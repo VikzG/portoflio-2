@@ -8,9 +8,9 @@ const Footer = () => {
   return (
     <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
+        <h2 className="heading lg:max-w-[45vw]">
           Merci<span className="text-purple"> pour votre visite</span>&nbsp;!
-        </h1>
+        </h2>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Échangeons et construisons quelque chose ensemble.
         </p>

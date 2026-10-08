@@ -92,23 +92,21 @@ export const BentoGridItem = ({
         "row-span-1 relative overflow-hidden rounded-2xl group/bento hover:shadow-xl shadow-input dark:shadow-none border justify-between flex flex-col opacity-0 space-y-4 border-white/[0.1]",
         className
       )}
-      style={{
-        background: "rgb(2,0,36)",
-      //  background: "#645CAA"
-        backgroundColor:
-          "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(112,9,121,1) 35%, rgba(0,212,255,1) 100%)",
-      }}
+      style={{ background: "rgb(2,0,36)" }}
     >
       <div className={`${id === 6 && "flex justify-center"} h-full `}>
         <div className="w-full h-full absolute">
           {img && (
             <img
               src={img}
-              alt={img}
+              alt=""
               className={cn(imgClassName, "object-cover object-center")}
             />
           )}
         </div>
+        {id === 1 && (
+          <div className="absolute inset-0 bg-gradient-to-t from-[#020024] via-[#020024]/60 to-transparent md:via-[#020024]/20" />
+        )}
         <div
           className={`absolute right-0 -bottom-5 ${
             id === 5 && "w-full opacity-80"
@@ -117,13 +115,22 @@ export const BentoGridItem = ({
           {spareImg && (
             <img
               src={spareImg}
-              alt={spareImg}
+              alt=""
               className={"object-cover object-center w-full h-full"}
             />
           )}
         </div>
         {id === 6 && (
-          <BackgroundGradientAnimation>
+          <BackgroundGradientAnimation
+            gradientBackgroundStart="rgb(16, 19, 46)"
+            gradientBackgroundEnd="rgb(36, 30, 78)"
+            firstColor="rgb(52, 44, 110)"
+            secondColor="rgb(70, 52, 130)"
+            thirdColor="rgb(40, 36, 96)"
+            fourthColor="rgb(60, 40, 110)"
+            fifthColor="rgb(60, 40, 110)"
+            pointerColor="rgb(90, 70, 160)"
+          >
             {/*<div className="absolute z-50 flex items-center
           justify-center text-white font-bold"/> */}
           </BackgroundGradientAnimation>
@@ -141,8 +148,8 @@ export const BentoGridItem = ({
             {title}
           </div>
           {id === 3 && (
-            <div className=" flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              <div className="flex flex-col gap-3 lg:gap-8">
+            <div className="flex flex-wrap gap-2 mt-5 md:mt-0 md:flex-nowrap md:gap-1 lg:gap-5 md:w-fit md:absolute md:-right-3 lg:-right-2">
+              <div className="contents md:flex md:flex-col md:gap-3 lg:gap-8">
                 {["React.js", "Node.js", "TypeScript","Next.js"].map((item) => (
                   <span
                     key={item}
@@ -152,10 +159,10 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
-                <span className="py-4 px-3 rounded-full text-center bg-[#10132e]" />
+                <span className="hidden md:block py-4 px-3 rounded-full text-center bg-[#10132e]" />
               </div>
-              <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="py-4 px-3 rounded-full text-center bg-[#10132e]" />
+              <div className="contents md:flex md:flex-col md:gap-3 lg:gap-8">
+                <span className="hidden md:block py-4 px-3 rounded-full text-center bg-[#10132e]" />
                 {["Figma","Photoshop", "Illustrator", "Indesign"].map((item) => (
                   <span
                     key={item}

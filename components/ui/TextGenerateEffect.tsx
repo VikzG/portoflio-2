@@ -25,14 +25,14 @@ export const TextGenerateEffect = ({
       },
       {
         duration: duration ? duration : 1,
-        delay: stagger(0.2),
+        delay: stagger(0.08),
       }
     );
   }, [scope.current]);
 
   const renderWords = () => {
     return (
-      <motion.div ref={scope}>
+      <motion.span ref={scope} className="block">
         {wordsArray.map((word, idx) => {
           return (
             <motion.span
@@ -47,17 +47,17 @@ export const TextGenerateEffect = ({
             </motion.span>
           );
         })}
-      </motion.div>
+      </motion.span>
     );
   };
 
   return (
-    <div className={cn("font-bold", className)}>
-      <div className="my-4">
-        <div className=" dark:text-white text-black leading-snug tracking-wide">
+    <h1 className={cn("font-bold", className)}>
+      <span className="block my-4">
+        <span className="block dark:text-white text-black leading-snug tracking-wide">
           {renderWords()}
-        </div>
-      </div>
-    </div>
+        </span>
+      </span>
+    </h1>
   );
 };

@@ -7,6 +7,13 @@ import { FaLocationArrow } from "react-icons/fa";
 import { useEffect } from "react";
 import gsap from "gsap";
 
+const techNames: Record<string, string> = {
+  "/next.svg": "Next.js",
+  "/ts.svg": "TypeScript",
+  "/tail.svg": "Tailwind CSS",
+  "/framer.png": "Framer Motion",
+};
+
 const RecentProjects = () => {
 
   useEffect(() => {
@@ -50,10 +57,10 @@ const RecentProjects = () => {
 
   return (
     <div className="py-20" id="projects">
-      <h1 className="heading projects-title-animation">
+      <h2 className="heading projects-title-animation">
         Un aperçu de {""}
         <span className="text-purple">mes projets</span>
-      </h1>
+      </h2>
       <div className="flex flex-wrap items-center
        justify-center p-4 gap-x-24 sm:gap-y-40 gap-y-2 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
@@ -72,16 +79,16 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden
                     lg:rounded-3xl bg-[#13162d]"
                 >
-                  <img src="/bg.png" alt="bg-img" />
+                  <img src="/bg.png" alt="" />
                 </div>
                 <img src={img} alt={title} className="z-10 absolute bottom-0 rounded-xl w-5/6 h-3/4 rotate-3 object-cover object-left" />
               </div>
-              <h1
+              <h3
                 className="font-bold lg:text-2xl md:text-xl
                 text-base line-clamp-1"
               >
                 {title}
-              </h1>
+              </h3>
               <p
                 className="lg:text-lg lg:font-normal
                 font-light text-sm line-clamp-2"
@@ -103,7 +110,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index * 2}px)`,
                       }}
                     >
-                      <img src={icon} alt={icon} className="p-2" />
+                      <img src={icon} alt={techNames[icon] ?? ""} className="p-2" />
                     </div>
                   ))}
                 </div>
