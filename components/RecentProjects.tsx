@@ -9,6 +9,7 @@ import gsap from "gsap";
 
 const techNames: Record<string, string> = {
   "/next.svg": "Next.js",
+  "/re.svg": "React",
   "/ts.svg": "TypeScript",
   "/tail.svg": "Tailwind CSS",
   "/framer.png": "Framer Motion",
@@ -75,13 +76,11 @@ const RecentProjects = () => {
                 sm:w-[570px] w-[80vw] overflow-hidden h-[30vh]
                 mb-10 sm:h-[40vh]"
               >
-                <div
-                  className="relative w-full h-full overflow-hidden
-                    lg:rounded-3xl bg-[#13162d]"
-                >
-                  <img src="/bg.png" alt="" />
-                </div>
-                <img src={img} alt={title} className="z-10 absolute bottom-0 rounded-xl w-5/6 h-3/4 rotate-3 object-cover object-left" />
+                <img
+                  src={img}
+                  alt={title}
+                  className="w-full h-full rounded-xl lg:rounded-3xl object-cover object-center bg-[#13162d]"
+                />
               </div>
               <h3
                 className="font-bold lg:text-2xl md:text-xl

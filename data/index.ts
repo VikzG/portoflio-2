@@ -50,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Je développe actuellement une application mobile dédiée à la mode et aux vêtements.",
+    title: "Je travaille actuellement sur la mise à jour du site de la Fondation Diaka Camara",
     description: "Sur quoi je travaille ?",
     className: "md:col-span-3 md:row-span-2 grid-scrolltrigger",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 opacity-30 md:opacity-100",
@@ -72,12 +72,20 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
-    title: "Agence Rotharc - Site web",
-    des: "Site de mon agence de création de sites web et d’applications sur mesure : direction artistique noir et or, animations soignées et offres présentées en toute transparence.",
-    img: "/rotharc.webp",
-    iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/framer.png"],
-    link: "https://rotharc-agency.com",
+    id: 5,
+    title: "ASSN - Site web",
+    des: "Site de l’Association de Secours et de Sauvetage Normande : présentation des formations au secourisme, inscriptions en ligne et espace d’administration.",
+    img: "/assn.webp",
+    iconLists: ["/re.svg", "/ts.svg", "/tail.svg", "/framer.png"],
+    link: "https://assn.fr",
+  },
+  {
+    id: 6,
+    title: "SEDIC - Site web",
+    des: "Site institutionnel de la SEDIC, acteur de l’immobilier au Congo : vidéo d’ouverture, carrousel des projets, chiffres clés animés et actualités.",
+    img: "/sedic.webp",
+    iconLists: ["/re.svg", "/ts.svg", "/tail.svg", "/framer.png"],
+    link: "https://www.sedic.cg",
   },
   {
     id: 2,
@@ -86,6 +94,22 @@ export const projects = [
     img: "/las_hero.png",
     iconLists: ["/next.svg", "/framer.png", "/tail.svg"],
     link: "https://lesartisanssonores.com/",
+  },
+  {
+    id: 3,
+    title: "Fondation Diaka Camara - Site web",
+    des: "Le site de la Fondation Diaka Camara est une plateforme moderne et responsive, conçue pour refléter les valeurs de la fondation.",
+    img: "/fondation.png",
+    iconLists: ["/re.svg", "/tail.svg", "/framer.png"],
+    link: "https://fondationdiakacamara.org",
+  },
+  {
+    id: 4,
+    title: "Retail Revive Services - Site web",
+    des: "Retail Revive Services est un cabinet de conseil panafricain qui accompagne les entreprises locales et internationales dans leur implantation en Afrique.",
+    img: "/banner_rss.png",
+    iconLists: ["/next.svg", "/tail.svg", "/framer.png"],
+    link: "https://retailreviveservices.com/fr",
   },
 ];
 

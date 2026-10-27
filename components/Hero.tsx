@@ -102,7 +102,7 @@ const Hero = () => {
             className="hero-sentence opacity-0 text-center md:tracking-wider mb-4
             text-sm md:text-lg lg:text-2xl"
           >
-            {"Je conçois des sites et applications web rapides, soignés et sur mesure, de l'idée à la mise en ligne."}
+            {"Je crée des sites et des applications modernes sur mesure"}
           </p>
           <a href="#projects">
             <ShimmerButton
